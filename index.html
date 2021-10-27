@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" type="image/jpg" href="favicon.ico">
     <title>Portfólio</title>
 </head>
 
 <body>
-    <div class="container">
+    <div id="fake_header"></div>
+    <main class="container">
         <div class="menuTop">
             <div class="line" id="line1"></div>
             <div class="line" id="line2"></div>
@@ -62,8 +63,7 @@
                         <h3>HTML</h3>
                     </div>
                     <div class="conhecimento-texto">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae voluptate, facilis eos earum cum labore eveniet ex consequuntur debitis nulla quidem? In porro qui ipsa provident ullam voluptatum, sed ducimus.
-                        </p>
+                        <p>Linguagem de marcação para criação de elementos da DOM em web browsers e apps.</p>
                     </div>
                 </div>
                 <div class="conhecimento">
@@ -72,7 +72,7 @@
                         <h3>CSS</h3>
                     </div>
                     <div class="conhecimento-texto">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ipsa ratione illum quis deserunt qui aut quaerat deleniti, amet similique a soluta porro magni dolorem delectus. Quidem vel veritatis nihil.</p>
+                        <p>Linguagem de marcação para estilização de elementos da DOM em web browsers e apps.</p>
                     </div>
                 </div>
                 <div class="conhecimento">
@@ -81,7 +81,7 @@
                         <h3>Design</h3>
                     </div>
                     <div class="conhecimento-texto">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi esse quod porro fugit dolor ad fugiat fuga illo veritatis nam, laborum repellendus necessitatibus, adipisci eveniet quo, aliquam nostrum cumque molestiae!</p>
+                        <p>Conhecimento nas ferramentas atuais de design tais como Figma, XD, Photoshop e Ilustrator</p>
                     </div>
                 </div>
                 <div class="conhecimento">
@@ -90,7 +90,7 @@
                         <h3>Javascript</h3>
                     </div>
                     <div class="conhecimento-texto">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ex necessitatibus soluta, eaque deserunt nisi quos earum distinctio nostrum tenetur maiores, impedit quaerat commodi animi veritatis enim laudantium, excepturi iusto?</p>
+                        <p>Linguagem de programação para manipulação de elementos na DOM em web browsers e apps.</p>
                     </div>
                 </div>
                 <div class="conhecimento">
@@ -99,7 +99,7 @@
                         <h3>Bootstrap</h3>
                     </div>
                     <div class="conhecimento-texto">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil nam repudiandae cumque soluta. Eaque distinctio excepturi dolorem accusamus, minus commodi fugit, quas repellat magnam aut, tempora recusandae vel? Rerum, autem?</p>
+                        <p>Framework que facilita a estilização de elementos da DOM em web browsers e apps.</p>
                     </div>
                 </div>
                 <div class="conhecimento">
@@ -108,7 +108,7 @@
                         <h3>Git e Github</h3>
                     </div>
                     <div class="conhecimento-texto">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit veniam aut quis quam, expedita iusto hic libero et asperiores, in voluptatum, nostrum deleniti vitae est rem! Dolor explicabo in deleniti?</p>
+                        <p>Controle de versionamento de aplicações (o mais usado na atualidade).</p>
                     </div>
                 </div>
                 <div class="conhecimentos-img-wrapper">
@@ -140,7 +140,7 @@
                         <h2>Japadog</h2>
                         <h3>HTML, CSS</h3>
                         <p>Projeto em html e css, para demonstrar um design de e-comerce.</p>
-                        <a href="https://harizedd.github.io/japagod/japadog.html"><button>Saiba Mais</button></a>
+                        <a href="https://harizedd.github.io/japagod/japadog.html" target="_blank"><button>Saiba Mais</button></a>
                     </div>
                 </div>
                 <div class="cards">
@@ -161,7 +161,7 @@
                 <div class="contato-left"></div>
                 <div class="contato-right">
                     <h1>Contato</h1>
-                    <form>
+                    <form action="mailto:hari_delima@hotmail.com">
                         <div class="input-group">
                             <input type="text" class="field" id="nome">
                             <label for="nome" class="field-label">Nome</label>
@@ -195,8 +195,8 @@
         <a href="#home" id="link-topo">
             <i class="fas fa-arrow-up"></i>
         </a>
-        </div>
+    </main>
 </body>
-<script src="script.js"></script>
+<script src="./js/script.js"></script>
 
 </html>
